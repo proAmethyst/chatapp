@@ -22,7 +22,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Routes>
-        <Route path="/">
+        <Route path="/chatapp">
           <Route index element={ 
             <ProtectedRoute>
               <Home />
