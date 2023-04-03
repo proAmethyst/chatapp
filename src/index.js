@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter as Router } from 'react-router-dom';
 import App from './App';
 import { AuthContextProvider } from './context/AuthContext';
 import { ChatContextProvider } from './context/ChatContext';
@@ -10,9 +9,7 @@ root.render(
   <AuthContextProvider>
     <ChatContextProvider>
     <React.StrictMode>
-      <Router>
         <App />
-      </Router>
     </React.StrictMode>
     </ChatContextProvider>
   </AuthContextProvider>
